@@ -25,10 +25,41 @@ const Content = styled.div`
     flex: 5;
 `;
 
-const Recommendation = styled.div`
+const Recommmendation = styled.div`
     flex: 2;
 `;
 
+const Channel = styled.div`
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+`
+
+const ChannelInfo = styled.div`
+
+`
+const Image = styled.img`
+
+`
+
+const ChannelName = styled.span`
+
+`
+
+const ChannelCounter = styled.span`
+
+`
+
+const Description = styled.p`
+
+`
+
+
+const Subscription = styled.button`
+
+
+`
 const Details = styled.div`
     display: flex;
     align-items: center;
@@ -46,6 +77,11 @@ const Buttons = styled.div`
 `
 const Button = styled.div`
 
+`
+
+const Hr = styled.hr`
+   margin: 15px 0px;
+   border: 0.5px solid ${({theme}) => theme.soft}
 `
 
 
@@ -74,8 +110,12 @@ const Video = () => {
                 <button>Button0</button>
                 <button>Button1</button>
             </Buttons> 
-        </Details>
-
+        </Details>  
+        <Hr /> 
+        <channel> 
+            <channelInfo>   </channelInfo>
+            <channelInfo>SUSBCRIBE</channelInfo>
+        </channel>
         </Content>
         <Recommmendation>recommndation</Recommmendation>
     </Container>;
