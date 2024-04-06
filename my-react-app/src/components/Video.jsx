@@ -56,10 +56,12 @@ const Description = styled.p`
 `
 
 
-const Subscription = styled.button`
+const Subscribe = styled.button`
 
 
 `
+
+
 const Details = styled.div`
     display: flex;
     align-items: center;
