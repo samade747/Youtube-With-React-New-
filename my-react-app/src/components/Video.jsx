@@ -109,8 +109,9 @@ const Video = () => {
         <Details>
             <Info>65898,744 views • 3 days ago</Info>
             <Buttons>
-                <button>Button0</button>
-                <button>Button1</button>
+                <button> <ThumbUpOutlindeIcon />    </button>
+
+                <button>                            </button>
             </Buttons> 
         </Details>  
         <Hr /> 
