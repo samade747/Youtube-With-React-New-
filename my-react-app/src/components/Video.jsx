@@ -116,12 +116,18 @@ const Video = () => {
         </Details>  
         <Hr /> 
         <channel> 
-            <channelInfo>   </channelInfo>
+            <channelInfo>
+                <Image src="../img/avatar.png" />
+             <ChannelName>Lama Dev</ChannelName>   
+             <ChannelName>200K subscribers</ChannelName> 
+             <Description>loreeum</Description>
+            </channelInfo>
             <channelInfo>SUSBCRIBE</channelInfo>
+            // 5142
         </channel>
         </Content>
         <Recommmendation>recommndation</Recommmendation>
     </Container>;
 };
 
-export default Video;
+export default Video; 
