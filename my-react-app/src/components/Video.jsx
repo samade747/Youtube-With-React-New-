@@ -37,26 +37,41 @@ const Channel = styled.div`
 `
 
 const ChannelInfo = styled.div`
-
+    display: flex;
+    gap: 20px;
 `
 const Image = styled.img`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 
 `
+const ChannelDetails = styled.div`
+    display: flex;
+    flex-direction: column;
+    color: ${({theme}) => theme.text}
+`
+
+
 
 const ChannelName = styled.span`
-
+    font-weight: 500;
 `
 
 const ChannelCounter = styled.span`
-
+    margin-top: 5px;
+    margin-bottom: 20px;
 `
 
 const Description = styled.p`
+    font-size: 14px;
 
 `
 
 
 const Subscribe = styled.button`
+    color: white;
+    font-weight: 500;
 
 
 `
@@ -78,7 +93,7 @@ const Buttons = styled.div`
     color: ${({theme}) => theme.text}
 `
 const Button = styled.div`
-
+    
 `
 
 const Hr = styled.hr`
@@ -119,7 +134,7 @@ const Video = () => {
             <channelInfo>
                 <Image src="../img/avatar.png" />
              <ChannelName>Lama Dev</ChannelName>   
-             <ChannelName>200K subscribers</ChannelName> 
+             <ChannelCounter>200K subscribers</ChannelName> 
              <Description>loreeum</Description>
             </channelInfo>
             <channelInfo>SUSBCRIBE</channelInfo>
