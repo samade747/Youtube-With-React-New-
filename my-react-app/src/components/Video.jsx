@@ -72,6 +72,13 @@ const Description = styled.p`
 const Subscribe = styled.button`
     color: white;
     font-weight: 500;
+    color: white;
+    border: none;
+    background-color: #cc1a00;
+    border-radius: 3px;
+    height: max-content;
+    padding: 10px 20px;
+    cursor: pointer;
 
 
 `
@@ -103,7 +110,7 @@ const Hr = styled.hr`
 
 
 
-
+ 
 // 4419
 
 const Video = () => {
@@ -124,9 +131,23 @@ const Video = () => {
         <Details>
             <Info>65898,744 views • 3 days ago</Info>
             <Buttons>
-                <button> <ThumbUpOutlindeIcon />    </button>
+                <button>
+                 <ThumbUpOutlindeIcon /> 123
+                 </button>
+                <button>
+                <ThumbDownOffAltOutlinedIcon /> Dislike
+                </button>
 
-                <button>                            </button>
+                <button>
+                <ReplyOutlinedIcon /> Share
+                </button>
+
+                <button>
+                <ReplyOutlinedIcon /> Save
+                </button>
+
+
+
             </Buttons> 
         </Details>  
         <Hr /> 
@@ -134,7 +155,7 @@ const Video = () => {
             <channelInfo>
                 <Image src="../img/avatar.png" />
              <ChannelName>Lama Dev</ChannelName>   
-             <ChannelCounter>200K subscribers</ChannelName> 
+             <ChannelCounter>200K subscribers</ChannelCounter> 
              <Description>loreeum</Description>
             </channelInfo>
             <channelInfo>SUSBCRIBE</channelInfo>
