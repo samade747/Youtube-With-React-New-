@@ -154,7 +154,7 @@ const Video = () => {
         <channel> 
             <channelInfo>
                 <Image src="../img/avatar.png" />
-             <ChannelName>Lama Dev</ChannelName>   
+             <ChannelName>samd</ChannelName>   
              <ChannelCounter>200K subscribers</ChannelCounter> 
              <Description>loreeum</Description>
             </channelInfo>
