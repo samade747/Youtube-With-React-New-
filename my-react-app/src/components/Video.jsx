@@ -162,6 +162,9 @@ const Video = () => {
             // 5142
         </channel>
         </Content>
+        <Hr />
+        <Comment />
+        
         <Recommmendation>recommndation</Recommmendation>
     </Container>;
 };
