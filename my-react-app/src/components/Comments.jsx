@@ -44,6 +44,15 @@ const Comments = () => {
                 <Input placeholder="Add a comment..." />
 
             </NewComment>           
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+            <Comment />
+
+
+
         </Container>
     )
 }
