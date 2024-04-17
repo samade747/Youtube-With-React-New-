@@ -37,26 +37,48 @@ const Channel = styled.div`
 `
 
 const ChannelInfo = styled.div`
-
+    display: flex;
+    gap: 20px;
 `
 const Image = styled.img`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 
 `
+const ChannelDetails = styled.div`
+    display: flex;
+    flex-direction: column;
+    color: ${({theme}) => theme.text}
+`
+
+
 
 const ChannelName = styled.span`
-
+    font-weight: 500;
 `
 
 const ChannelCounter = styled.span`
-
+    margin-top: 5px;
+    margin-bottom: 20px;
 `
 
 const Description = styled.p`
+    font-size: 14px;
 
 `
 
 
 const Subscribe = styled.button`
+    color: white;
+    font-weight: 500;
+    color: white;
+    border: none;
+    background-color: #cc1a00;
+    border-radius: 3px;
+    height: max-content;
+    padding: 10px 20px;
+    cursor: pointer;
 
 
 `
@@ -78,7 +100,7 @@ const Buttons = styled.div`
     color: ${({theme}) => theme.text}
 `
 const Button = styled.div`
-
+    
 `
 
 const Hr = styled.hr`
@@ -88,7 +110,7 @@ const Hr = styled.hr`
 
 
 
-
+ 
 // 4419
 
 const Video = () => {
@@ -115,12 +137,21 @@ const Video = () => {
         </Details>  
         <Hr /> 
         <channel> 
-            <channelInfo>   </channelInfo>
+            <channelInfo>
+                <Image src="../img/avatar.png" />
+             <ChannelName>samd</ChannelName>   
+             <ChannelCounter>200K subscribers</ChannelCounter> 
+             <Description>loreeum</Description>
+            </channelInfo>
             <channelInfo>SUSBCRIBE</channelInfo>
+            // 5142
         </channel>
         </Content>
+        <Hr />
+        <Comment />
+        
         <Recommmendation>recommndation</Recommmendation>
     </Container>;
 };
 
-export default Video;
+export default Video; 
