@@ -132,7 +132,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <div><HelpIcon /> Help</div>
 
         <div onClick={() => setDarkMode(!darkMode)}>
-            <SettingsBrightnessOutlinedIcon />
+            {/* <SettingsBrightnessOutlinedIcon /> */}
         {darkMode ? "Light" : "Dark"} Mode
         </div>
         </Item>
