@@ -165,7 +165,9 @@ const Video = () => {
         <Hr />
         <Comment />
         
-        <Recommmendation>recommndation</Recommmendation>
+        <Recommmendation>
+            <Card />
+        </Recommmendation>
     </Container>;
 };
 
