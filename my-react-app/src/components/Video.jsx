@@ -110,7 +110,6 @@ const Video = () => {
             <Info>65898,744 views • 3 days ago</Info>
             <Buttons>
                 <button> <ThumbUpOutlindeIcon />    </button>
-
                 <button>                            </button>
             </Buttons> 
         </Details>  
