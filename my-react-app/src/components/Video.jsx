@@ -131,23 +131,8 @@ const Video = () => {
         <Details>
             <Info>65898,744 views • 3 days ago</Info>
             <Buttons>
-                <button>
-                 <ThumbUpOutlindeIcon /> 123
-                 </button>
-                <button>
-                <ThumbDownOffAltOutlinedIcon /> Dislike
-                </button>
-
-                <button>
-                <ReplyOutlinedIcon /> Share
-                </button>
-
-                <button>
-                <ReplyOutlinedIcon /> Save
-                </button>
-
-
-
+                <button> <ThumbUpOutlindeIcon />    </button>
+                <button>                            </button>
             </Buttons> 
         </Details>  
         <Hr /> 
